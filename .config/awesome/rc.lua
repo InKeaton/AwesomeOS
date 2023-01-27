@@ -20,7 +20,6 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
-
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -279,15 +278,15 @@ globalkeys = gears.table.join(
               {description = "switch window", group = "launcher"}),
     
     -- Power Prompt
-    awful.key({ modkey },            "p",     function () awful.spawn("/home/inkeaton/Scripts/rofi/rofi-power-menu.sh") end,
+    awful.key({ modkey },            "p",     function () awful.spawn("/home/inkeaton/Applicazioni/rofi/rofi-power-menu.sh") end,
               {description = "powermenu", group = "launcher"}),
     
     -- Wifi Prompt
-    awful.key({ modkey },            "w",     function () awful.spawn("/home/inkeaton/Scripts/rofi/rofi-wifi-menu.sh") end,
+    awful.key({ modkey },            "w",     function () awful.spawn("/home/inkeaton/Applicazioni/rofi/rofi-wifi-menu.sh") end,
               {description = "wifi menu", group = "launcher"}),
     
     -- Music Stream Prompt
-    awful.key({ modkey },            "a",     function () awful.spawn("/home/inkeaton/Scripts/rofi/rofi-beats-linux") end,
+    awful.key({ modkey },            "a",     function () awful.spawn("/home/inkeaton/Applicazioni/rofi/rofi-beats-linux") end,
               {description = "stream music menu", group = "launcher"})
 
     -- Menubar
@@ -434,6 +433,7 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
+                     round_corners = true,
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen
      }
     },
@@ -553,7 +553,7 @@ border_width = 0
 
 -- Autorun programs
 -- Picom, Compositor
-awful.spawn.with_shell("picom --experimental-backends --backend glx --xrender-sync-fence -b")
+awful.spawn.with_shell("picom --experimental-backends --backend glx -b")
 
 -- kmix, Volume manager
 -- awful.spawn.with_shell("kmix")
@@ -575,6 +575,7 @@ awful.spawn.with_shell("/home/inkeaton/.config/polybar/launch.sh")
 awful.spawn.with_shell("libinput-gestures-setup stop desktop autostart start")
 
 -- Rounded Corners
+--[[
 client.connect_signal("manage", function(c)
     c.shape = function(cr, w, h)
         gears.shape.rounded_rect(cr, w, h, 30)
@@ -584,5 +585,9 @@ end)
 beautiful.notification_shape = function(cr, w, h)
     gears.shape.rounded_rect(cr, w, h, 30)
 end
+--]]
+
+
+
 
 
