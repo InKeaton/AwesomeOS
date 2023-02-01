@@ -1,0 +1,44 @@
+2023-01-31 09:47:33.109 [info] Extension host with pid 1330 started
+2023-01-31 09:47:33.109 [info] Skipping acquiring lock for /home/inkeaton/.config/VSCodium/User/workspaceStorage/d1851534962bdfaa43602f574f946cee.
+2023-01-31 09:47:33.230 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-31 09:47:33.339 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-31 09:47:33.340 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-31 09:47:33.435 [info] Eager extensions activated
+2023-01-31 09:47:33.460 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:33.460 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:33.461 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:33.462 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:47.663 [info] Extension host terminating: received terminate message from renderer
+2023-01-31 09:47:47.670 [info] Extension host with pid 1330 exiting with code 0
+2023-01-31 09:47:48.689 [info] Extension host with pid 1429 started
+2023-01-31 09:47:48.689 [info] Skipping acquiring lock for /home/inkeaton/.config/VSCodium/User/workspaceStorage/8c28cae6c80c4b832707c291445870b3.
+2023-01-31 09:47:48.776 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-31 09:47:48.933 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-31 09:47:48.947 [info] Eager extensions activated
+2023-01-31 09:47:48.950 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:48.950 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:48.950 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:48.950 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 09:47:50.597 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-01-31 09:52:18.174 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:properties'
+2023-01-31 10:00:56.224 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-31 10:00:56.224 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-31 10:00:56.225 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-31 10:00:56.289 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2023-01-31 10:00:56.289 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2023-01-31 10:00:56.342 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2023-01-31 10:00:56.507 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2023-01-31 10:00:56.507 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2023-01-31 10:00:56.507 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:01:15.636 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:01:15.648 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:01:15.648 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:01:15.648 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:01:21.025 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:02:13.952 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:02:13.964 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:02:13.964 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:02:13.964 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:02:17.309 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:02:25.079 [info] Extension host terminating: received terminate message from renderer
+2023-01-31 10:02:25.106 [info] Extension host with pid 1429 exiting with code 0

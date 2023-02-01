@@ -1,0 +1,20 @@
+2023-01-30 10:38:05.599 [info] Starting worker process with pid 2754 (type: fileWatcher, window: 1).
+2023-01-30 10:40:07.157 [info] Getting Manifest... rendinjast.amoled-black
+2023-01-30 10:40:07.162 [info] Installing extension: rendinjast.amoled-black
+2023-01-30 10:40:09.432 [info] Extracted extension to /home/inkeaton/.vscode-oss/extensions/.ffe2b0f2-53e0-4039-ad1d-0deff9328f38: rendinjast.amoled-black
+2023-01-30 10:40:09.439 [info] Renamed to /home/inkeaton/.vscode-oss/extensions/rendinjast.amoled-black-0.1.0
+2023-01-30 10:40:09.441 [info] Extracting completed. rendinjast.amoled-black
+2023-01-30 10:40:09.451 [info] Extension installed successfully: rendinjast.amoled-black
+2023-01-30 10:40:56.763 [info] Getting Manifest... pkief.material-icon-theme
+2023-01-30 10:40:56.769 [info] Installing extension: pkief.material-icon-theme
+2023-01-30 10:40:57.907 [info] Extracted extension to /home/inkeaton/.vscode-oss/extensions/.0cfd7cee-9742-4ef7-a511-d2d347268da7: pkief.material-icon-theme
+2023-01-30 10:40:57.924 [info] Renamed to /home/inkeaton/.vscode-oss/extensions/pkief.material-icon-theme-4.23.1
+2023-01-30 10:40:57.928 [info] Extracting completed. pkief.material-icon-theme
+2023-01-30 10:40:57.942 [info] Extension installed successfully: pkief.material-icon-theme
+2023-01-30 10:41:54.734 [info] Getting Manifest... ms-ceintl.vscode-language-pack-it
+2023-01-30 10:41:55.338 [info] Installing extension: ms-ceintl.vscode-language-pack-it
+2023-01-30 10:41:56.555 [info] Extracted extension to /home/inkeaton/.vscode-oss/extensions/.adbfe567-93a8-4c9f-824a-41b9c31ae361: ms-ceintl.vscode-language-pack-it
+2023-01-30 10:41:56.558 [info] Renamed to /home/inkeaton/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-it-1.74.12140931
+2023-01-30 10:41:56.559 [info] Extracting completed. ms-ceintl.vscode-language-pack-it
+2023-01-30 10:41:56.567 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-it
+2023-01-30 10:41:56.605 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-it

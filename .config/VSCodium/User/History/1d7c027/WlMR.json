@@ -1,0 +1,4 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "security.workspace.trust.untrustedFiles": "open"
+}

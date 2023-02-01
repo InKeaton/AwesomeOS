@@ -1,0 +1,9 @@
+2023-01-30 10:54:50.730 [info] Extension host with pid 4866 started
+2023-01-30 10:54:50.835 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-30 10:54:50.967 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-30 10:54:50.967 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-30 10:54:50.974 [info] Extension host terminating: received terminate message from renderer
+2023-01-30 10:54:50.976 [error] Failed to load translations for vscode.git from file:///home/inkeaton/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-it-1.74.12140931/translations/extensions/vscode.git.i18n.json: Canceled
+2023-01-30 10:54:50.976 [error] Failed to load translations for vscode.github from file:///home/inkeaton/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-it-1.74.12140931/translations/extensions/vscode.github.i18n.json: Canceled
+2023-01-30 10:54:51.011 [warning] Using default string since no string found in i18n bundle that has the key: GitHub
+2023-01-30 10:54:51.012 [info] Extension host with pid 4866 exiting with code 0

@@ -1,0 +1,8 @@
+2023-01-31 10:02:28.753 [info] update#setState idle
+2023-01-31 10:02:30.751 [info] Starting extension host with pid 2100 (fork() took 9 ms).
+2023-01-31 10:02:58.758 [info] update#setState checking for updates
+2023-01-31 10:02:59.059 [info] update#setState idle
+2023-01-31 10:03:34.214 [info] Starting extension host with pid 2368 (fork() took 5 ms).
+2023-01-31 10:03:34.830 [info] Extension host with pid 2368 exited with code: 0, signal: null.
+2023-01-31 10:07:15.534 [info] Waiting for extension host with pid 2100 to exit.
+2023-01-31 10:07:15.553 [info] Extension host with pid 2100 exited with code: 0, signal: null.

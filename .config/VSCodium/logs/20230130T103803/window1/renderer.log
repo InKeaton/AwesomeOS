@@ -1,0 +1,2 @@
+2023-01-30 10:38:07.992 [info] [perf] Render performance baseline is 31ms
+2023-01-30 10:38:15.039 [error] Error while registering log channel file:///home/inkeaton/.config/VSCodium/logs/20230130T103803/userDataSync.log Timed out while waiting for file to be created

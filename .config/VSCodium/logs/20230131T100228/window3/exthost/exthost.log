@@ -1,0 +1,4 @@
+2023-01-31 10:03:34.678 [info] Extension host with pid 2368 started
+2023-01-31 10:03:34.800 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-31 10:03:34.814 [info] Extension host terminating: received terminate message from renderer
+2023-01-31 10:03:34.814 [info] Extension host with pid 2368 exiting with code 0

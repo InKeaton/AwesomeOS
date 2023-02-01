@@ -1,0 +1,5 @@
+2023-01-30 11:10:52.625 [info] update#setState idle
+2023-01-30 11:10:54.198 [info] Starting extension host with pid 7907 (fork() took 96 ms).
+2023-01-30 11:11:22.629 [info] update#setState checking for updates
+2023-01-30 11:11:22.888 [info] update#setState idle
+2023-01-30 11:25:45.519 [info] Extension host with pid 7907 exited with code: 0, signal: null.

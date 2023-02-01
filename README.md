@@ -133,3 +133,16 @@ Per abilitare la preview di immagini e pdf dovremo installare i seguenti pacchet
 sudo pacman -S poppler-utils w3m
 ~~~
 E fare delle modifiche in `rc.conf` e `scope.sh`
+
+
+# TO/DO:
+* polkit
+* networkmanager, iwd, nmcli, nmtui
+* firefox, ffprofile
+* TLP and powertop
+* ntfs3 driver
+* flatpak
+* setting time and timezone
+* libinput-gestures
+* zsh, oh my zsh, autocompletion, syntax highlighting
+* dns, openresolv, nmcli con mod SSID ipv4.dns "208.67.222.222 208.67.220.220"

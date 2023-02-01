@@ -1,0 +1,11 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "AMOLED Black",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "workbench.statusBar.visible": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.fontFamily": "'JetBrains Mono Nerd Font', 'FiraCode Nerd Font', 'monospace'",
+    "editor.fontLigatures": true, // Font ligature
+}

@@ -1,0 +1,7 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "AMOLED Black",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1
+}

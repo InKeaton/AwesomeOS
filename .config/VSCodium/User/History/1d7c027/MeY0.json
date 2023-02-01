@@ -1,0 +1,5 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "AMOLED Black"
+}

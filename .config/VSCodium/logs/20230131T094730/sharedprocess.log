@@ -1,0 +1,9 @@
+2023-01-31 09:47:33.396 [info] Starting worker process with pid 1366 (type: fileWatcher, window: 1).
+2023-01-31 09:47:47.676 [info] Worker process with pid 1366 terminated normally (type: fileWatcher, window: 1).
+2023-01-31 09:47:48.301 [info] Starting worker process with pid 1430 (type: fileWatcher, window: 1).
+2023-01-31 09:52:43.698 [info] Getting Manifest... dlasagno.rasi
+2023-01-31 09:52:43.710 [info] Installing extension: dlasagno.rasi
+2023-01-31 09:52:45.416 [info] Extracted extension to /home/inkeaton/.vscode-oss/extensions/.64240c17-32bf-4bfc-99ca-2aa0ee83b657: dlasagno.rasi
+2023-01-31 09:52:45.423 [info] Renamed to /home/inkeaton/.vscode-oss/extensions/dlasagno.rasi-1.0.0
+2023-01-31 09:52:45.424 [info] Extracting completed. dlasagno.rasi
+2023-01-31 09:52:45.436 [info] Extension installed successfully: dlasagno.rasi

@@ -1,0 +1,61 @@
+2023-01-31 10:02:32.231 [info] Extension host with pid 2100 started
+2023-01-31 10:02:32.231 [info] Skipping acquiring lock for /home/inkeaton/.config/VSCodium/User/workspaceStorage/8c28cae6c80c4b832707c291445870b3.
+2023-01-31 10:02:32.369 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-31 10:02:32.462 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-31 10:02:32.462 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-31 10:02:32.564 [info] Eager extensions activated
+2023-01-31 10:02:32.584 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 10:02:32.584 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 10:02:32.584 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 10:02:32.584 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-01-31 10:02:43.909 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-31 10:02:43.909 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-31 10:02:43.910 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-31 10:02:43.970 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2023-01-31 10:02:43.970 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2023-01-31 10:02:44.012 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2023-01-31 10:02:44.239 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2023-01-31 10:02:44.240 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2023-01-31 10:02:44.240 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:03:21.718 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:03:21.732 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:03:21.732 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:03:21.732 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:03:26.850 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:04:38.418 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:04:38.427 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:04:38.427 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:04:38.427 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:04:40.014 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:06:21.079 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:06:21.084 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:06:21.084 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:06:21.084 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:06:22.371 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:06:29.318 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:06:29.325 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:06:29.325 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:06:29.325 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:06:35.291 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:06:35.363 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:06:35.370 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:06:35.370 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:06:35.370 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:06:35.842 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:06:35.842 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:06:35.848 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:06:35.848 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:06:35.848 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:06:36.911 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:06:36.912 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:06:36.926 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:06:36.926 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:06:36.926 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:06:38.117 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:06:38.119 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-31 10:06:38.136 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-31 10:06:38.136 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-31 10:06:38.136 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-31 10:06:39.468 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-31 10:07:15.513 [info] Extension host terminating: received terminate message from renderer
+2023-01-31 10:07:15.535 [info] Extension host with pid 2100 exiting with code 0
