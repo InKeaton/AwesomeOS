@@ -217,15 +217,31 @@ globalkeys = gears.table.join(
     awful.key({}, "XF86AudioRaiseVolume", function() awful.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%") end,
             {description = "increase volume", group = "system"}),
 
-    awful.key({}, "XF86AudioMute", function() awful.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") naughty.notify({title = "Audio Muted"}) end,
+    awful.key({}, "XF86AudioMute", function() awful.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle") end,
             {description = "mute volume", group = "system"}),
 
     --Brightness 
-    awful.key({ }, "XF86MonBrightnessDown", function () awful.util.spawn("brightnessctl -d 'intel_backlight' set 5-") end,
+    awful.key({ }, "XF86MonBrightnessDown", function () awful.spawn("brightnessctl -d 'intel_backlight' set 5%-") end,
             {description = "lower brightness", group = "system"}),
 
-    awful.key({ }, "XF86MonBrightnessUp", function () awful.util.spawn("brightnessctl -d 'intel_backlight' set +5") end,
+    awful.key({ }, "XF86MonBrightnessUp", function () awful.spawn("brightnessctl -d 'intel_backlight' set +5%") end,
             {description = "increase brightness", group = "system"}),
+    
+    -- Blue Light Controls (Bluegon)
+    awful.key({"Shift"}, "XF86MonBrightnessDown", function () awful.spawn.with_shell("blugon --setcurrent=\"+300\"") end,
+            {description = "increase blue light", group = "system"}),
+
+    awful.key({"Shift"}, "XF86MonBrightnessUp", function () awful.spawn.with_shell("blugon --setcurrent=\"-300\"") end,
+            {description = "decrease blue light", group = "system"}),
+    
+    -- Screenshots (maim)
+    awful.key({       }, "Print", function () awful.spawn.with_shell("maim | tee ~/Immagini/Schermate/$(date +%s).png | xclip -selection clipboard -t image/png") 
+                                              naughty.notify({text = "Schermata catturata e copiata!"}) end,
+            {description = "capture the screen", group = "system"}),
+
+    awful.key({"Shift"}, "Print", function () awful.spawn.with_shell("maim -s | tee ~/Immagini/Schermate/$(date +%s).png | xclip -selection clipboard -t image/png") 
+                                              end,
+            {description = "capture a selection of the screen", group = "system"}),
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
