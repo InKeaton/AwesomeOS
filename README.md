@@ -128,17 +128,18 @@ Possiamo installarlo
 ~~~
 sudo pacman -S ranger
 ~~~
-Per abilitare la preview di immagini e pdf dovremo installare i seguenti pacchetti
+Per abilitare la preview di immagini, pdf e l'estrazione di pacchetti dovremo installare i seguenti pacchetti
 ~~~
-sudo pacman -S poppler-utils w3m
+sudo pacman -S poppler w3m atool
 ~~~
 E fare delle modifiche in `rc.conf` e `scope.sh`
 
+https://github.com/SL-RU/ranger_udisk_menu
 
 # TO/DO:
 * polkit
 * networkmanager, iwd, nmcli, nmtui
-* firefox, ffprofile
+* firefox, ffprofile, firefox color and extensions
 * TLP and powertop
 * ntfs3 driver
 * flatpak
@@ -146,3 +147,6 @@ E fare delle modifiche in `rc.conf` e `scope.sh`
 * libinput-gestures
 * zsh, oh my zsh, autocompletion, syntax highlighting
 * dns, openresolv, nmcli con mod SSID ipv4.dns "208.67.222.222 208.67.220.220"
+* blugon
+* maim and xclip
+* remember to check /etc/modprobe.d/nvidia-blacklist.conf for when you want to use nvidia card
