@@ -68,7 +68,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  #opacity: 1.0
+  opacity: 0.9
 
   # Startup Mode (changes require restart)
   #
@@ -188,8 +188,14 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#07031e'
-    foreground: '#EECBDB'
+
+    # Dancing Friends
+    # background: '#07031e'
+    # foreground: '#EECBDB'
+
+    # Blade of Miquella
+    background: '#1f040e'
+    foreground: '#F9E2C0'
 
     # Bright and dim foreground colors
     #
@@ -281,18 +287,9 @@ colors:
   #  background: CellForeground
 
   # Normal colors
-  # Dancing Friends
   normal:
-    black:   '#000000'
-    red:     '#e73262'
-    green:   '#b6d92f'
-    yellow:  '#d9cd2f'
-    blue:    '#2f55d9'
-    magenta: '#aa2fd9'
-    cyan:    '#2fd9b3'
-    white:   '#fae8f4'
 
-  # normal colors
+  # default
   #  black:   '#1d1f21'
   #  red:     '#cc6666'
   #  green:   '#b5bd68'
@@ -302,20 +299,50 @@ colors:
   #  cyan:    '#8abeb7'
   #  white:   '#c5c8c6'
 
+  # Dancing Friends
+  #  black:   '#000000'
+  #  red:     '#e73262'
+  #  green:   '#b6d92f'
+  #  yellow:  '#d9cd2f'
+  #  blue:    '#2f55d9'
+  #  magenta: '#aa2fd9'
+  #  cyan:    '#2fd9b3'
+  #  white:   '#fae8f4'
+
+  # Blade of Miquella
+    black:   '#000000'
+    red:     '#D12F0F'
+    green:   '#97D10F'
+    yellow:  '#F9A82B'
+    blue:    '#0F69D1'
+    magenta: '#D10F90'
+    cyan:    '#0FD1CB'
+    white:   '#FAEAD2'
 
   # Bright colors
-  # Dancing Friends
   bright:
-    black:   '#2e2e2e'
-    red:     '#fa366a'
-    green:   '#d2fa36'
-    yellow:  '#faec36'
-    blue:    '#3662fa'
-    magenta: '#c436fa'
-    cyan:    '#36face'
-    white:   '#faeff6'
 
-  #bright:
+  # Dancing Friends
+  #  black:   '#2e2e2e'
+  #  red:     '#fa366a'
+  #  green:   '#d2fa36'
+  #  yellow:  '#faec36'
+  #  blue:    '#3662fa'
+  #  magenta: '#c436fa'
+  #  cyan:    '#36face'
+  #  white:   '#faeff6'
+
+  # Blade of Miquella
+    black:   '#2e2e2e'
+    red:     '#EF3F1C'
+    green:   '#B0EF1C'
+    yellow:  '#FFC12C'
+    blue:    '#1C7FEF'
+    magenta: '#EF1CA9'
+    cyan:    '#1CEFE8'
+    white:   '#FFF8ED'
+
+  # default
   #  black:   '#666666'
   #  red:     '#d54e53'
   #  green:   '#b9ca4a'

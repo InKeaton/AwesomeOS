@@ -68,7 +68,7 @@ awful.layout.layouts = {
     awful.layout.suit.tile.left,
     awful.layout.suit.floating,
     -- awful.layout.suit.tile.bottom,
-    awful.layout.suit.tile.top,
+    -- awful.layout.suit.tile.top,
     -- awful.layout.suit.fair,
     -- awful.layout.suit.fair.horizontal,
     -- awful.layout.suit.spiral,
@@ -239,7 +239,7 @@ globalkeys = gears.table.join(
                                               naughty.notify({text = "Schermata catturata e copiata!"}) end,
             {description = "capture the screen", group = "system"}),
 
-    awful.key({"Shift"}, "Print", function () awful.spawn.with_shell("maim -s | tee ~/Immagini/Schermate/$(date +%s).png | xclip -selection clipboard -t image/png") 
+    awful.key({modkey}, "Print", function () awful.spawn.with_shell("maim -s | tee ~/Immagini/Schermate/$(date +%s).png | xclip -selection clipboard -t image/png") 
                                               end,
             {description = "capture a selection of the screen", group = "system"}),
 

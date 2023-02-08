@@ -150,3 +150,8 @@ https://github.com/SL-RU/ranger_udisk_menu
 * blugon
 * maim and xclip
 * remember to check /etc/modprobe.d/nvidia-blacklist.conf for when you want to use nvidia card
+* Gpu passthrough
+	* install qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat libguestfs
+	* start it with sudo systemctl start libvirtd.service and enable it
+	* modify sudo nano /etc/libvirt/libvirtd.conf
+	* add to the libvirt group (sudo usermod -aG libvirt inkeaton) and reboot
