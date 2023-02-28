@@ -1,0 +1,9 @@
+2023-02-19 15:13:20.345 [info] Livello log: Info
+2023-02-19 15:13:20.345 [info] Convalida del GitT trovato in: "git"
+2023-02-19 15:13:20.345 [info] Uso di Git "2.39.1" da "git"
+2023-02-19 15:13:20.350 [info] > git rev-parse --show-toplevel [17ms]
+2023-02-19 15:13:20.350 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-19 15:13:20.358 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-19 15:13:20.358 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

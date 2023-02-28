@@ -130,7 +130,7 @@ sudo pacman -S ranger
 ~~~
 Per abilitare la preview di immagini, pdf e l'estrazione di pacchetti dovremo installare i seguenti pacchetti
 ~~~
-sudo pacman -S poppler w3m atool
+sudo pacman -S poppler w3m atool zip unzip
 ~~~
 E fare delle modifiche in `rc.conf` e `scope.sh`
 
@@ -146,12 +146,10 @@ https://github.com/SL-RU/ranger_udisk_menu
 * setting time and timezone
 * libinput-gestures
 * zsh, oh my zsh, autocompletion, syntax highlighting
-* dns, openresolv, nmcli con mod SSID ipv4.dns "208.67.222.222 208.67.220.220"
+* dns: nmcli con sudo nmcli connection modify SSID ipv4.dns "208.67.222.222 208.67.220.220"
 * blugon
 * maim and xclip
-* remember to check /etc/modprobe.d/nvidia-blacklist.conf for when you want to use nvidia card
-* Gpu passthrough
-	* install qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat libguestfs
-	* start it with sudo systemctl start libvirtd.service and enable it
-	* modify sudo nano /etc/libvirt/libvirtd.conf
-	* add to the libvirt group (sudo usermod -aG libvirt inkeaton) and reboot
+* ibt=off for intel 11th gen with nvidia, PRIME render offload
+* locate, plocate, updatedb
+* For rofi-radio, install yt-dlp. Learn to create custom osc
+* bluetooth: bluez, bluez-utils, bluetoothctl

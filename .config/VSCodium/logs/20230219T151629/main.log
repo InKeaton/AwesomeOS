@@ -1,0 +1,8 @@
+2023-02-19 15:16:29.687 [info] update#setState idle
+2023-02-19 15:16:31.705 [info] Starting extension host with pid 8676 (fork() took 8 ms).
+2023-02-19 15:16:59.689 [info] update#setState checking for updates
+2023-02-19 15:17:00.104 [info] update#setState idle
+2023-02-19 16:16:59.715 [info] update#setState checking for updates
+2023-02-19 16:17:00.220 [info] update#setState idle
+2023-02-19 16:23:12.102 [info] Waiting for extension host with pid 8676 to exit.
+2023-02-19 16:23:12.108 [info] Extension host with pid 8676 exited with code: 0, signal: null.

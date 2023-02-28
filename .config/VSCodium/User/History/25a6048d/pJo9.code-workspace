@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.config"
+		}
+	],
+	"settings": {
+		"ocaml.sandbox": {
+			"kind": "global"
+		}
+	}
+}

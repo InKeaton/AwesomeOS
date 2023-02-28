@@ -4,7 +4,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/inkeaton/.config"
+                "folderUri": "file:///home/inkeaton/Codice/Unige/Anno%202/LPO/OCaml"
             }
         ],
         "emptyWindows": []
@@ -47,10 +47,44 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Riapri editor chiuso"
+                                    "label": "&&Riapri editor chiuso",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inkeaton/Codice/Unige/Anno%202/LPO/OCaml",
+                                        "path": "/home/inkeaton/Codice/Unige/Anno 2/LPO/OCaml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Codice/Unige/Anno 2/LPO/OCaml"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inkeaton/Codice/Unige",
+                                        "path": "/home/inkeaton/Codice/Unige",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Codice/Unige"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inkeaton/Codice/config.code-workspace",
+                                        "path": "/home/inkeaton/Codice/config.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Codice/config (Area di lavoro)"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -81,6 +115,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/inkeaton/.config/alacritty/alacritty.yml",
+                                        "path": "/home/inkeaton/.config/alacritty/alacritty.yml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/alacritty/alacritty.yml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inkeaton/.themes/adwaita-dark-amoled-master/gtk-3.0/gtk-dark.css",
+                                        "path": "/home/inkeaton/.themes/adwaita-dark-amoled-master/gtk-3.0/gtk-dark.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.themes/adwaita-dark-amoled-master/gtk-3.0/gtk-dark.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/inkeaton/.config/polybar/config.ini",
                                         "path": "/home/inkeaton/.config/polybar/config.ini",
                                         "scheme": "file"
@@ -92,45 +148,78 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/inkeaton/.config/picom/picom.conf",
-                                        "path": "/home/inkeaton/.config/picom/picom.conf",
+                                        "external": "file:///home/inkeaton/.config/awesome/rc.lua",
+                                        "path": "/home/inkeaton/.config/awesome/rc.lua",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/picom/picom.conf"
+                                    "label": "~/.config/awesome/rc.lua"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/inkeaton/Downloads/md.obsidian.Obsidian.flatpakref",
-                                        "path": "/home/inkeaton/Downloads/md.obsidian.Obsidian.flatpakref",
+                                        "external": "file:///home/inkeaton/.config/gtk-3.0/settings.ini",
+                                        "path": "/home/inkeaton/.config/gtk-3.0/settings.ini",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/md.obsidian.Obsidian.flatpakref"
+                                    "label": "~/.config/gtk-3.0/settings.ini"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/inkeaton/Applicazioni/rofi/rofi-power-menu.sh",
-                                        "path": "/home/inkeaton/Applicazioni/rofi/rofi-power-menu.sh",
+                                        "external": "file:///home/inkeaton/Scaricati/soluzione.ml",
+                                        "path": "/home/inkeaton/Scaricati/soluzione.ml",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Applicazioni/rofi/rofi-power-menu.sh"
+                                    "label": "~/Scaricati/soluzione.ml"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/inkeaton/Applicazioni/rofi/rofi-wifi-menu.sh",
-                                        "path": "/home/inkeaton/Applicazioni/rofi/rofi-wifi-menu.sh",
+                                        "external": "file:///home/inkeaton/Codice/Unige/Anno%202/LPO/OCaml/examsim.ml",
+                                        "path": "/home/inkeaton/Codice/Unige/Anno 2/LPO/OCaml/examsim.ml",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Applicazioni/rofi/rofi-wifi-menu.sh"
+                                    "label": "~/Codice/Unige/Anno 2/LPO/OCaml/examsim.ml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inkeaton/Applicazioni/rofi/rofi-beats-linux",
+                                        "path": "/home/inkeaton/Applicazioni/rofi/rofi-beats-linux",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Applicazioni/rofi/rofi-beats-linux"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inkeaton/Applicazioni/rofi/rofi-bluetooth",
+                                        "path": "/home/inkeaton/Applicazioni/rofi/rofi-bluetooth",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Applicazioni/rofi/rofi-bluetooth"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/inkeaton/test.txt",
+                                        "path": "/home/inkeaton/test.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/test.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -169,13 +258,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Salva",
-                        "enabled": false
+                        "label": "&&Salva"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Salva &&con nome...",
-                        "enabled": false
+                        "label": "Salva &&con nome..."
                     },
                     {
                         "id": "saveAll",
@@ -192,13 +279,11 @@
                             "items": [
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
-                                    "label": "Esporta profilo (Predefinito)...",
-                                    "enabled": false
+                                    "label": "Esporta profilo (Predefinito)..."
                                 },
                                 {
                                     "id": "workbench.profiles.actions.importProfile",
-                                    "label": "Importa profilo...",
-                                    "enabled": false
+                                    "label": "Importa profilo..."
                                 }
                             ]
                         }
@@ -216,8 +301,89 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "submenuitem.Profiles",
+                                    "label": "Profili (Predefinito)",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.profiles.actions.profileEntry.__default__profile__",
+                                                "label": "Predefinito",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "vscode.menubar.separator"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.showProfileContents",
+                                                "label": "Mostra contenuti..."
+                                            },
+                                            {
+                                                "id": "vscode.menubar.separator"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.createProfile",
+                                                "label": "Crea profilo..."
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.deleteProfile",
+                                                "label": "Elimina profilo...",
+                                                "enabled": false
+                                            },
+                                            {
+                                                "id": "vscode.menubar.separator"
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.exportProfile",
+                                                "label": "Esportare profilo..."
+                                            },
+                                            {
+                                                "id": "workbench.profiles.actions.importProfile",
+                                                "label": "Importa profilo..."
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openSettings",
                                     "label": "&&Impostazioni"
+                                },
+                                {
+                                    "id": "workbench.view.extensions",
+                                    "label": "&&Estensioni"
+                                },
+                                {
+                                    "id": "workbench.action.openGlobalKeybindings",
+                                    "label": "Tasti di scelta rapida"
+                                },
+                                {
+                                    "id": "workbench.action.openSnippets",
+                                    "label": "Configura Frammenti utente"
+                                },
+                                {
+                                    "id": "submenuitem.ThemesSubMenu",
+                                    "label": "&&Tema",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.selectTheme",
+                                                "label": "Tema colori"
+                                            },
+                                            {
+                                                "id": "workbench.action.selectIconTheme",
+                                                "label": "Tema icona file"
+                                            },
+                                            {
+                                                "id": "workbench.action.selectProductIconTheme",
+                                                "label": "Tema dell'icona di prodotto"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "settings.filterByOnline",
@@ -226,43 +392,6 @@
                                 {
                                     "id": "settings.filterByTelemetry",
                                     "label": "Impostazioni di telemetria"
-                                },
-                                {
-                                    "id": "workbench.view.extensions",
-                                    "label": "&&Estensioni"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.openGlobalKeybindings",
-                                    "label": "Tasti di scelta rapida"
-                                },
-                                {
-                                    "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
-                                    "label": "Esegui &&migrazione dei tasti di scelta rapida da..."
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.openSnippets",
-                                    "label": "Configura Frammenti utente"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.selectTheme",
-                                    "label": "Tema &&colori"
-                                },
-                                {
-                                    "id": "workbench.action.selectIconTheme",
-                                    "label": "Tema &&icona file"
-                                },
-                                {
-                                    "id": "workbench.action.selectProductIconTheme",
-                                    "label": "&&Tema dell'icona di prodotto"
                                 }
                             ]
                         }
@@ -272,13 +401,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Ri&&pristina file",
-                        "enabled": false
+                        "label": "Ri&&pristina file"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "Chiudi &&editor",
-                        "enabled": false
+                        "label": "Chiudi &&editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -327,13 +454,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Trova",
-                        "enabled": false
+                        "label": "&&Trova"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Sostituisci",
-                        "enabled": false
+                        "label": "&&Sostituisci"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -479,7 +604,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Barra laterale &&primaria"
+                                    "label": "Barra laterale &&primaria",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -496,7 +622,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Pannello"
+                                    "label": "&&Pannello",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -506,7 +633,7 @@
                                     "label": "&&Sposta barra laterale primaria a destra"
                                 },
                                 {
-                                    "id": "submenuitem.MenubarPanelPositionMenu",
+                                    "id": "submenuitem.PanelPositionMenu",
                                     "label": "Posizione pannello",
                                     "submenu": {
                                         "items": [
@@ -527,7 +654,7 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.MenubarPanelAlignmentMenu",
+                                    "id": "submenuitem.PanelAlignmentMenu",
                                     "label": "Allinea pannello",
                                     "submenu": {
                                         "items": [
@@ -712,8 +839,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Ritorno a capo automatico",
-                        "enabled": false
+                        "label": "&&Ritorno a capo automatico"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -725,7 +851,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Indietro"
+                        "label": "&&Indietro",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -734,7 +861,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Posizione ultima modifica"
+                        "label": "&&Posizione ultima modifica",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -875,28 +1003,23 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Vai alla &&definizione",
-                        "enabled": false
+                        "label": "Vai alla &&definizione"
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Vai a &&dichiarazione",
-                        "enabled": false
+                        "label": "Vai a &&dichiarazione"
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Vai alla &&definizione di tipo",
-                        "enabled": false
+                        "label": "Vai alla &&definizione di tipo"
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Vai a &&Implementazioni",
-                        "enabled": false
+                        "label": "Vai a &&Implementazioni"
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Vai a &&riferimenti",
-                        "enabled": false
+                        "label": "Vai a &&riferimenti"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1000,6 +1123,10 @@
                         "label": "&&Nuovo punto di interruzione",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "editor.debug.action.editBreakpoint",
+                                    "label": "&&Modifica punto di interruzione"
+                                },
                                 {
                                     "id": "editor.debug.action.conditionalBreakpoint",
                                     "label": "Punto di interruzione &&condizionale..."
@@ -1107,7 +1234,7 @@
                 "items": [
                     {
                         "id": "workbench.action.openWalkthrough",
-                        "label": "Attività iniziali"
+                        "label": "Introduzione"
                     },
                     {
                         "id": "workbench.action.showCommands",
@@ -1614,6 +1741,7 @@
     "theme": "vs-dark",
     "themeBackground": "#0e0e0e",
     "windowSplash": {
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#e6e6e6",
@@ -1630,15 +1758,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 0,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/inkeaton/.config",
-            "backupPath": "/home/inkeaton/.config/VSCodium/Backups/ab4b07a22bc4f408976367b849a7bb69",
+            "folder": "file:///home/inkeaton/Codice/Unige/Anno%202/LPO/OCaml",
+            "backupPath": "/home/inkeaton/.config/VSCodium/Backups/8cab102788de35050168f4490b360183",
             "uiState": {
                 "mode": 1,
                 "x": 11,
@@ -1648,5 +1776,16 @@
             }
         },
         "openedWindows": []
-    }
+    },
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/inkeaton/.config": "__default__profile__",
+            "file:///home/inkeaton/Codice/config.code-workspace": "__default__profile__",
+            "file:///home/inkeaton/Codice/Unige": "__default__profile__",
+            "file:///home/inkeaton/Codice/Unige/Anno%202/LPO/OCaml": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true
 }

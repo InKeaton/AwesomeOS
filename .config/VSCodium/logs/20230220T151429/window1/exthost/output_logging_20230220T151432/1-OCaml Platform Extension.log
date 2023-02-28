@@ -1,0 +1,255 @@
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "--version"
+  ]
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "--version"
+  ]
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "2.1.4\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "2.1.4\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "2.1.4\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "/home/inkeaton/.opam\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "switch",
+    "show",
+    "--root",
+    "/home/inkeaton/.opam"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "/home/inkeaton/.opam\n",
+    "stderr": ""
+  }
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "/home/inkeaton/.opam\n",
+    "stderr": ""
+  }
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "switch",
+    "show",
+    "--root",
+    "/home/inkeaton/.opam"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "default\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "switch",
+    "show",
+    "--root",
+    "/home/inkeaton/.opam"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "switch",
+    "show",
+    "--root",
+    "/home/inkeaton/.opam"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "default\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/inkeaton/.opam",
+    "--",
+    "ocamlc",
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/inkeaton/.opam",
+    "--",
+    "ocamlc",
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "4.14.0\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/inkeaton/.opam",
+    "--",
+    "ocamllsp",
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/inkeaton/.opam",
+    "--",
+    "ocamllsp",
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "1.15.1-4.14\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/inkeaton/.opam",
+    "--",
+    "ocamllsp"
+  ]
+}
+

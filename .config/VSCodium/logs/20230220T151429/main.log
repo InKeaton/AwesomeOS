@@ -1,0 +1,6 @@
+2023-02-20 15:14:29.971 [info] update#setState idle
+2023-02-20 15:14:32.097 [info] Starting extension host with pid 6790 (fork() took 6 ms).
+2023-02-20 15:14:59.974 [info] update#setState checking for updates
+2023-02-20 15:15:00.257 [info] update#setState idle
+2023-02-20 15:44:36.080 [info] Waiting for extension host with pid 6790 to exit.
+2023-02-20 15:44:36.086 [info] Extension host with pid 6790 exited with code: 0, signal: null.

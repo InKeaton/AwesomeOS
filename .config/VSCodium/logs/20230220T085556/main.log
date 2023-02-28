@@ -1,0 +1,13 @@
+2023-02-20 08:55:56.765 [info] update#setState idle
+2023-02-20 08:55:58.046 [info] Starting extension host with pid 2671 (fork() took 5 ms).
+2023-02-20 08:55:58.854 [error] update#isLatestVersion(): failed to check for updates
+2023-02-20 08:55:58.857 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-02-20 08:56:26.769 [info] update#setState checking for updates
+2023-02-20 08:56:26.914 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-02-20 08:56:26.917 [info] update#setState idle
+2023-02-20 09:12:09.397 [info] Waiting for extension host with pid 2671 to exit.
+2023-02-20 09:12:09.403 [info] Extension host with pid 2671 exited with code: 0, signal: null.

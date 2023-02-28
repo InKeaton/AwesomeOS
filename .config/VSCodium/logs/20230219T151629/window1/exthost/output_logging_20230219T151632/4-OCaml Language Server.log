@@ -1,0 +1,85 @@
+[Warn  - 15:16:33] failed to poll dune registry. Unix.Unix_error(Unix.ENOENT, "stat", "/run/user/1000/dune/rpc")
+[Error - 15:39:42] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: try
+[Error - 15:39:42] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: acc_select
+[Error - 15:40:34] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: with
+[Error - 15:45:34] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: t2
+[Error - 15:46:08] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: else
+[Error - 15:46:09] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: with
+[Error - 15:46:10] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: match
+[Error - 15:46:10] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: match
+[Error - 15:46:10] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: with
+[Error - 15:46:10] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: then
+[Error - 15:57:08] Request completionItem/resolve failed.
+  Message: uncaught exception
+  Code: -32603 
+[object Object]
+[Error - 16:02:36] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: then
+[Error - 16:05:19] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: with
+[Error - 16:05:21] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: if
+[Error - 16:06:45] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: function
+[Error - 16:06:46] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: function
+[Error - 16:17:18] Request completionItem/resolve failed.
+  Message: uncaught exception
+  Code: -32603 
+[object Object]
+[Error - 16:18:48] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: one
+[Error - 16:18:50] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: rec
+[Error - 16:20:37] Request textDocument/codeAction failed.
+  Message: uncaught exception
+  Code: -32603 
+[object Object]
+[Error - 16:22:08] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: with

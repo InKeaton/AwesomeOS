@@ -1,0 +1,15 @@
+2023-02-19 15:13:19.229 [info] Extension host with pid 7260 started
+2023-02-19 15:13:19.229 [info] Skipping acquiring lock for /home/inkeaton/.config/VSCodium/User/workspaceStorage/9622a6efe2e990a3f8fe24aea4bb7cfc.
+2023-02-19 15:13:19.381 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-19 15:13:19.382 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-02-19 15:13:19.382 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-19 15:13:19.382 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-02-19 15:13:19.568 [info] ExtensionService#_doActivateExtension ocamllabs.ocaml-platform, startup: true, activationEvent: 'workspaceContains:**/dune-workspace,**/dune,**/dune-project,**/*.opam,**/*.ml,**/*.mli,**/*.mll,**/*.mly,**/*.re,**/*.rei'
+2023-02-19 15:13:20.117 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-19 15:13:20.118 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-19 15:13:20.333 [info] Eager extensions activated
+2023-02-19 15:13:20.407 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-19 15:13:20.408 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-19 15:13:20.409 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-02-19 15:14:32.339 [info] Extension host terminating: received terminate message from renderer
+2023-02-19 15:14:32.374 [info] Extension host with pid 7260 exiting with code 0

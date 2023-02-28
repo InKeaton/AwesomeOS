@@ -1,0 +1,18 @@
+2023-02-20 15:14:34.072 [info] Livello log: Info
+2023-02-20 15:14:34.073 [info] Convalida del GitT trovato in: "git"
+2023-02-20 15:14:34.073 [info] Uso di Git "2.39.1" da "git"
+2023-02-20 15:14:34.073 [info] > git rev-parse --show-toplevel [9ms]
+2023-02-20 15:14:34.073 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-20 15:14:34.074 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-20 15:14:34.074 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-20 15:14:34.225 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-20 15:14:34.225 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-20 15:14:34.572 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-20 15:14:34.572 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-20 15:17:47.192 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-20 15:17:47.192 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

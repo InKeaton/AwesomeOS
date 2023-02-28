@@ -1,0 +1,191 @@
+2023-02-19 15:16:32.460 [info] Extension host with pid 8676 started
+2023-02-19 15:16:32.460 [info] Skipping acquiring lock for /home/inkeaton/.config/VSCodium/User/workspaceStorage/9622a6efe2e990a3f8fe24aea4bb7cfc.
+2023-02-19 15:16:32.697 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-19 15:16:32.697 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-02-19 15:16:32.698 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-19 15:16:32.698 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-02-19 15:16:32.940 [info] ExtensionService#_doActivateExtension ocamllabs.ocaml-platform, startup: true, activationEvent: 'workspaceContains:**/dune-workspace,**/dune,**/dune-project,**/*.opam,**/*.ml,**/*.mli,**/*.mll,**/*.mly,**/*.re,**/*.rei'
+2023-02-19 15:16:33.410 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-19 15:16:33.411 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-19 15:16:33.761 [info] Eager extensions activated
+2023-02-19 15:16:33.813 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-19 15:16:33.814 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-19 15:16:33.814 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-02-19 15:36:23.590 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:36:56.876 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:39:18.055 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:39:42.743 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:39:42.759 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:39:42.775 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:39:42.776 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:40:34.272 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:40:34.273 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:41:13.600 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:41:50.067 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:41:51.050 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:41:52.432 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:43.237 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.728 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.790 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.798 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.809 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.822 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.837 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.848 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.863 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.880 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.943 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.955 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:42:44.970 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:43:04.235 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:43:22.448 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:44:04.057 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:44:58.910 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:45:17.954 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:45:34.369 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:45:34.369 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:45:34.755 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:45:40.748 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:46:08.615 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:46:08.617 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:46:09.992 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:46:09.993 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:46:10.060 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:46:10.060 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:46:10.375 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:46:10.375 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:46:10.452 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:46:10.452 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:46:10.473 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:46:10.473 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:46:11.700 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:46:14.234 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:57:08.936 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 15:57:08.936 [error] Error: uncaught exception
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 15:59:07.964 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:59:08.492 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:59:56.235 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 15:59:59.122 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:00:02.190 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:01:11.485 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:01:13.623 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:01:44.892 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:01:47.772 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:02:36.118 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:02:36.118 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:02:38.156 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:02:53.020 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:03:08.480 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:03:22.707 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:03:31.801 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:03:56.096 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:04:00.042 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:05:19.882 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:05:19.882 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:05:21.941 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:05:21.941 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:06:45.589 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:06:45.589 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:06:46.407 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:06:46.407 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:12:48.247 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-19 16:12:48.247 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-19 16:12:48.247 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-19 16:17:18.044 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:17:18.044 [error] Error: uncaught exception
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:18:48.779 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:18:48.780 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:18:50.152 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:18:50.153 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:20:37.139 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:20:37.139 [error] Error: uncaught exception
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:21:01.723 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:21:56.355 [warning] ocamllabs.ocaml-platform - Code actions of kind 'quickfix 'requested but returned code action is of kind 'switch'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-02-19 16:22:08.144 [error] [ocamllabs.ocaml-platform] provider FAILED
+2023-02-19 16:22:08.145 [error] Error: Request "Jump to definition" failed.
+	at handleResponse (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:4:422)
+	at processMessageQueue (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11811)
+	at Immediate.<anonymous> (/home/inkeaton/.vscode-oss/extensions/ocamllabs.ocaml-platform-1.12.2/dist/vscode_ocaml_platform.bc.js:3:11509)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-02-19 16:23:12.067 [info] Extension host terminating: received terminate message from renderer
+2023-02-19 16:23:12.095 [info] Extension host with pid 8676 exiting with code 0

@@ -1,0 +1,5 @@
+2023-02-19 15:13:16.475 [info] update#setState idle
+2023-02-19 15:13:18.443 [info] Starting extension host with pid 7260 (fork() took 9 ms).
+2023-02-19 15:13:46.477 [info] update#setState checking for updates
+2023-02-19 15:13:46.778 [info] update#setState idle
+2023-02-19 15:14:32.385 [info] Extension host with pid 7260 exited with code: 0, signal: null.

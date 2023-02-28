@@ -1,0 +1,1 @@
+[Warn  - 15:10:21] failed to poll dune registry. Unix.Unix_error(Unix.ENOENT, "stat", "/run/user/1000/dune/rpc")

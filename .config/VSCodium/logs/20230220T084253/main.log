@@ -1,0 +1,12 @@
+2023-02-20 08:42:53.950 [info] update#setState idle
+2023-02-20 08:42:55.436 [info] Starting extension host with pid 4504 (fork() took 8 ms).
+2023-02-20 08:42:56.158 [error] update#isLatestVersion(): failed to check for updates
+2023-02-20 08:42:56.159 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-02-20 08:43:23.952 [info] update#setState checking for updates
+2023-02-20 08:43:23.958 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-02-20 08:43:23.959 [info] update#setState idle
+2023-02-20 08:53:18.266 [info] Extension host with pid 4504 exited with code: 0, signal: null.

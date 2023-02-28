@@ -134,6 +134,10 @@ alias ls='exa -lh --color=auto --icons'
 #   export EDITOR='mvim'
 # fi
 
+# resize GTK applications
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.5
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -148,5 +152,7 @@ alias ls='exa -lh --color=auto --icons'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /home/inkeaton/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/inkeaton/.config/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# opam configuration
+[[ ! -r /home/inkeaton/.opam/opam-init/init.zsh ]] || source /home/inkeaton/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null

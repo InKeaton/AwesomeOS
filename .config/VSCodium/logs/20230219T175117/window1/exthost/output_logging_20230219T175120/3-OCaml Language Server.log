@@ -1,0 +1,9 @@
+[Warn  - 17:51:21] failed to poll dune registry. Unix.Unix_error(Unix.ENOENT, "stat", "/run/user/1000/dune/rpc")
+[Error - 17:51:42] Request completionItem/resolve failed.
+  Message: uncaught exception
+  Code: -32603 
+[object Object]
+[Error - 17:57:08] Request textDocument/definition failed.
+  Message: Request "Jump to definition" failed.
+  Code: -32803 
+'Locate' query to merlin returned error: not in environment: hello
